@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Montserrat", sans-serif; */
+}
+
+/* margin : 0 250px; */
+
+.main-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.is-current {
+  margin-left: 20px;
+}
+
+.dropdown-content ul {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo-docplanner {
+  width: 270px;
+  /* margin: 0;
+      padding: top 70 em;
+      margin-right: 40px;  */
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+
+  box-shadow: 0px 8px 16px 0px rgb(253, 253, 253);
+  padding: 12px 16px;
+  height: 200px;
+  /* left-width: 300px; */
+  width: 200%;
+}
+.dropdown-content li {
+  color: gray;
+  /* padding: ; */
+  margin: 5%;
+}
+.dropdown-content li:hover {
+    color: #00b39b;
+
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -10px;
+  z-index: 1px;
+}
+
+/* .dropdown:hover .dropdown-content ul {
+      display: block;
+       margin: 10px; 
+     
+
+  } */
+/* .dropdown-content ul li  :hover{ 
+     cursor: pointer;
+     color : skyblue;
+     width: 30px;
+     padding: 10px;
+     
+  }  */
+/* .dropdown ul li :hover .dropdown-content ul li {
+      width:30px ;
+      text-align: left;
+      margin: 20px;
+      padding: 10px; 
+      size: 20px;
+      color: grey;
+  } */
+
+.about {
+  color: skyblue;
+  size: 15px;
+}
+
+/* initialisation */
+
+/* health-intro CSS */
+.health-intro {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 2% 10%;
+}
+
+.health-intro h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+
+.health-intro div {
+  display: flex;
+}
+.health-intro div p {
+  /* width: 45%; */
+  padding: 3%;
+  line-height: 1.75;
+}
+
+/* Countries CSS */
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 4px;
+    margin: 0 10%;
+    box-shadow: lavender;
+    
+
+}
+.box-bleu {
+    background-color:#00ccb1; 
+    padding:32px ;
+    margin: 3%;
+    border-radius: 4%;
+   height: 8cm;
+   width: 7.6cm;
+  
+
+} 
+.box-bleu2{
+    background-color:#3d83df ;
+    padding:  32px;
+    margin: 3% ;
+    border-radius: 4%;
+    height: 8cm;
+    width: 7.6cm;
+    
+    
+    
+}
+.box-black{
+    background-color: #1b2734;
+    padding:  32px;
+    margin: 3% ;
+    border-radius: 4%;
+    height: 8cm; 
+    width: 7.6cm;
+    
+}
+h1{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: rgb(245, 244, 244);
+    margin: .3em 0;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+   size: 1em;
+}
+.domain-switcher{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer; 
+    color: rgb(223, 223, 223);
+    font: inherit;
+    height: 40px;
+    size: 50px;
+    margin-top: 40%;
+    font-size: 20px;
+    text-decoration-color: white;
+}
+
+.domain-switcher1{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer; 
+    color: rgb(223, 223, 223);
+    font: inherit;
+    height: 40px;
+    font-size: 20px;
+    text-decoration-color: white;
+
+
+
+}
+
+.company h1 {
+    /*font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.625em;*/
+    color: #00b39b ; 
+    /*text-align: left; 
+    text-decoration: lavender;
+    margin-left: 110px;*/
+    float: left;
+    width: 15cm;
+    font-size: 2.2em;
+    margin: .25em 0 .35em;
+    margin-top: 0.25em;
+    margin-right: 0px;
+    margin-bottom: 0.35em;
+    margin-left: 115px;
+    padding-right: 1em;
+    
+}
+
+  .company{
+    
+    display: flex; 
+    justify-content: space-between;
+    padding:40px 0 0 40px;
+    margin: 2px;
+    font-size: 15px; 
+    
+
+ } 
+        .line1{
+         display: flex;
+         justify-content: space-between;
+         fill:hsla(0,0%,67%,.7) ;
+         
+          
+         
+         
+     }
+     
+     .line2{
+        display: flex;
+        justify-content: space-between;
+        fill:hsla(0,0%,67%,.7) ;
+       
+       }
+      .company li{
+          margin : 1%;
+           padding: 7px;
+           height: px;
+           width: -90%;
+           font-size: 1.8em;
+           margin: .10em 0 .35em;
+           margin-top: 0.1em;
+           margin-right: 55px;
+           margin-bottom: 0.35em;
+           margin-left: 4px;
+           padding-right: 1em;
+           color: hsla(0,0%,67%,.7);
+       }
+         
+.stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 13%;
+    background-color: #e5faf8;
+    overflow: hidden;
+    position: relative;
+  }
+ .h2header{
+    font-size: 2.125rem;
+    color: #00b39b;
+  }
+   .pheader {
+    max-width: 415px;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    margin: 1.6em ;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+   }
+  .stats-intro {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+  }
+  
+  .stats-content {
+    flex: 3;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .stats-intro img {
+    position: absolute;
+    bottom: -20%;
+    left: 5%;
+  }
+  
+  .stats1,
+  .stats2,
+  .stats3,
+  .stats4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5%;
+    width: 230px;
+    height: 250px;
+    margin-top: 2%;
+    padding: 3%;
+  }
+  
+  .stats4,
+  .stats2 {
+    transform: translateY(-20px);
+  }
+  
+  .stats1 p,
+  .stats3 p {
+    text-align: center;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 10%;
+    padding: 3%;
+  }
+  #h2 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    padding: 0% 20%;
+    text-align: center;
+  }
+  
+  #p {
+    text-align: center;
+    padding: 2% 21%;
+  }
+  
+  /* Countries CSS */
+  
+  .button {
+    font-size: 12px;
+    background-color: rgb(52, 52, 243);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-style: bolder;
+    padding: 0.3%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .countries div div p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 150%;
+    font-style: bold;
+  }
+  
+  /* Country CSS */
+  .countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3%;
+    margin: 2% 10%;
+  }
+  
+  /* countries sections */
+  
+  .countries div {
+    margin-bottom: 2%;
+    border-radius: 3%;
+  }
+  
+  /* oppening see */
+  
+  .countries div div {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* country hover */
+  
+  /* .countries:hover {
+    box-shadow: 5px 0px 5px grey;
+    cursor: pointer;
+  } */
+  
+  .country-card:hover {
+    box-shadow: 5px 0px 5px grey;
+    cursor: pointer;
+  } 
+   .footer{
+       display: flex;
+       justify-content: center;
+       line-height: 10px;
+       border-top: 1px solid gray;
+       padding-top: 2%;
+     }
+     
+     #pfooter {
+       text-align: center;
+       font-size: 12px;
+       color: #ababab;  
+     } 
+     .footer a{
+         /*justify-content: space-between;*/
+         /*display: flex;*/ 
+         color: blue;
+          padding: 0.3%;
+          padding-bottom: 0.1%;
+          padding-top: 0.1%;
+         font-size: 15px;
+     }
